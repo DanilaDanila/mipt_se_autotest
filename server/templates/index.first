@@ -1,0 +1,14 @@
+<html>
+<head>
+<title>mipt-se</title>
+<link rel="stylesheet" href="style.css">
+<meta charset="utf-8">
+</head>
+<body>
+
+<div class=main>
+    <div class=menu>
+        <a href="rules.html">Правила</a>
+        <a href="index.html">Табличка</a>
+    </div>
+    <div class=table>

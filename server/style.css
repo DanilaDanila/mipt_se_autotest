@@ -1,0 +1,27 @@
+table, th, td {
+    border: 1px solid;
+    text-align: center;
+}
+
+a {
+    margin-left: 5vw;
+    margin-right: 5vw;
+}
+
+.main {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.menu {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.textbox {
+    width: 60vw;
+}
