@@ -1,6 +1,6 @@
 #!/bin/bash
 
-PWD="/home/danila/mipt_se_autotest/server"
+PWD="/home/pi/mipt_se_autotest/server"
 cd $PWD
 
 ./do_report.sh

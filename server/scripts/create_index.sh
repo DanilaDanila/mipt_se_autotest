@@ -1,6 +1,6 @@
 #!/bin/bash
 
-PWD="/home/danila/mipt_se_autotest/server/scripts"
+PWD="/home/pi/mipt_se_autotest/server/scripts"
 cd $PWD
 
 cat ../templates/index.first > ../index.html
