@@ -53,7 +53,7 @@ for repo in $(cat $INFILE)
         continue
     fi
 
-    make 1>$REPORTS/build/$DIRNAME.log 2>$REPORTS/build/$DIRNAME.log
+    make 1>>$REPORTS/build/$DIRNAME.log 2>>$REPORTS/build/$DIRNAME.log
     if [ $? -ne 0 ]; then
         echo "make failed,," >> $OUTFILE
         continue

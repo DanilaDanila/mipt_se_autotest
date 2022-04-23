@@ -43,4 +43,4 @@ log2html $REPORTS/build
 log2html $REPORTS/rational
 log2html $REPORTS/m3i
 
-./scripts/create_index.sh $REPORTS $HOME/table.csv
+./scripts/create_index.sh $HOME/scripts $REPORTS $HOME/table.csv

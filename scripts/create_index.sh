@@ -1,8 +1,8 @@
 #!/bin/bash
 
-HOME="/home/danila/mipt_se_autotest/scripts"
-REPORTS_PATH=$1
-TABLE_PATH=$2
+HOME=$1
+REPORTS_PATH=$2
+TABLE_PATH=$3
 cd $HOME
 
 cat ../templates/index.first > ../server/index.html
